@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+}
+header {
+    background-color: chocolate;
+    
+}
+main {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: chocolate
+    
+    
+    
+}
+nav > div > img:nth-child(1) {
+    height: 20px;
+    margin-right: 5px;
+}
+nav > img:nth-of-type(2) {
+    height: 40px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 50px;
+    margin-left: 90px;
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+h2 {
+    margin-left: 90px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+nav > div:nth-of-type(1) {
+    display: flex;
+    
+    
+}
+nav > img {
+    height: 100px;
+    justify-content: right;
+    margin-top: 0px;
+}
+nav ul a {
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+}
+section > article:nth-of-type(1) {
+    display: flex;
+}
+section > article:nth-of-type(1) img {
+    height: 400px;
+}
+section > article:nth-of-type(1) img:hover {
+    transform: scale(1.1);
+}
+p {
+    text-align: center;
+}
+article > div > div > p {
+    margin-top: 0px;
+}
+.formular {
+    margin-left: 0px;
+    display: flex;
+}
+#ln {
+    margin-left: 2px;
+}
+#em {
+    margin-left: 34px;
+}
+#tc {
+    margin-left: 28px;
+}
+#n {
+    margin-left: 27px;
+}
+#cp {
+    margin-left: 2px;
+}
+.header-formular {
+    margin: 0;
+    margin-bottom: 10px;
+}
+textarea {
+    padding-right: 13px;
+}
+#ib {
+    margin-left: 34px;
+}
+.formular2 {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+#nb {
+    margin-left: 40px;
+}
+#ca {
+    margin-left: 22px;
+}
+.formular > div > img {
+    height: 450px;
+    margin-left: 170px;
+}
+.bla {
+    margin-top: 50px;
+}
+#description {
+    text-align: center;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    background-color: thistle;
+    border: black 1px solid;
+    font-size: 18px;
+}
+.eilles {
+    margin-left: 100px;
+}
+.eilles2 {
+    margin-right: 70px;
+}
+.pomori {
+    margin-left: 90px;
+}
+.moevenpick {
+    margin-left: 100px;
+}
+.moevenpick2 {
+    margin-right: 80px;
+}
+.iframe {
+    display: flex;
+    justify-content: center;
+}
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+}
+.thommi {
+    height: 500px;
+    margin-top: 30px;
+    border: black 1px solid;
+}
+.history {
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.about-us-container p  {
+    font-style: italic;
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    margin-top: 50px;
+    height: 50px;
+}
+footer a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: darkblue;
+}
+footer span {
+    margin-right: 20px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer p, a, span {
+    margin-top: 17px;
+}
+.formular2 > div > img:hover {
+    transform: scale(1,5);
+}
